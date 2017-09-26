@@ -1,0 +1,86 @@
+body{
+	font-size: 14px;
+	min-width: 1162px;
+}
+html, body, div, span, applet, object,button,input, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    list-style: none;
+    text-decoration: none;
+}
+.clearfix{overflow:hidden;_zoom:1;}
+#kefu{
+	position: absolute;
+	width: 74px;
+	height: 310px;
+    right:20px;
+    top: 131px;
+    z-index: 11;
+    font-size: 12px;
+    display: none;
+}
+#kefu li{
+	width: 74px;
+	margin-bottom: 5px;
+	background:#959595;
+	text-align: center;
+	cursor: pointer;
+}
+#kefu li img{
+	padding-top: 10px;
+	*padding-bottom: 8px;
+}
+#kefu li p{
+	color: #FFFFFF;
+	padding-bottom: 10px;
+}
+#kefu li:hover{
+	background:#00A8FF;
+	transition: background-color 1s;
+}
+.font-1{
+	font: normal normal normal 3.4em/47px \5FAE\8F6F\96C5\9ED1;
+}
+.font-2{
+	font: normal normal normal 1.7em/24px \5FAE\8F6F\96C5\9ED1;
+}
+.font-3{
+	font: normal normal normal 1.5em/20px \5FAE\8F6F\96C5\9ED1;
+}
+.font-4{
+	font: normal normal normal 1.28em/18px \5FAE\8F6F\96C5\9ED1;
+}
+.font-5{
+	font: normal normal normal 1.15em/25px \5FAE\8F6F\96C5\9ED1;
+}
+.font-7{
+	font: normal normal normal 1em/20px \5FAE\8F6F\96C5\9ED1;
+}
+
+.color-1{
+	color: #2FA5E3;/*不算很淡的蓝色*/
+}
+.color-2{
+	color: #666666;/*灰色字体*/
+}
+.color-3{
+	color: #e3e3e3;
+}
+.color-4{
+	color: #ffffff;/*拜拜*/
+}
+.color-5{
+	color: #ABABAB;/*淡灰色*/
+}
+.color-6{
+	color: #f0f0f0;/*淡灰色*/
+}
+.border-color1{
+	border-color: #2FA5E3;
+}
+.border-color-4{
+	color: #ffffff;/*拜拜*/
+}
