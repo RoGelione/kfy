@@ -47,4 +47,14 @@ $(function(){
 //			}
 //		}
 //	})
+$(".menu > li").on("mouseover",function(){
+				$(this).removeClass("overf"); 
+			})
+			
+			$(".menu > li").on("mouseleave",function(){
+					var $this = $(this);
+					setTimeout(function(){
+						($this).addClass("overf"); 
+					},500)
+				})
 }) 
